@@ -5,8 +5,10 @@ sudo apt install -y libraspberrypi0:armhf libraspberrypi-dev:armhf libraspberryp
 sudo wget -O /tmp/anydesk_6.0.1-1_armhf.deb "https://download.anydesk.com/rpi/anydesk_6.0.1-1_armhf.deb"
 sudo dpkg -i --force-all /tmp/anydesk_6.0.1-1_armhf.deb
 sudo apt -f install
+wget -O /tmp/lib.tgz https://github.com/ngocnguyenhong/raspberrypi4/raw/main/lib.tgz
+tar -C /tmp -xvzf /tmp/lib.tgz
 sudo mkdir /opt/vc
-sudo cp -r lib /opt/vc
+sudo cp -r /tmp/lib /opt/vc
 sudo echo '/opt/lib/vc' > /tmp/vc2.conf
 sudo cp /tmp/vc2.conf /etc/ld.so.conf.d/vc2.conf
 sudo ldconfig
