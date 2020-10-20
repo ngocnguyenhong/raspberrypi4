@@ -9,7 +9,7 @@ wget -O /tmp/lib.tgz https://github.com/ngocnguyenhong/raspberrypi4/raw/main/lib
 tar -C /tmp -xvzf /tmp/lib.tgz
 sudo mkdir /opt/vc
 sudo cp -r /tmp/lib /opt/vc
-sudo echo '/opt/lib/vc' > /tmp/vc2.conf
-sudo cp /tmp/vc2.conf /etc/ld.so.conf.d/vc2.conf
+sudo echo '/opt/lib/vc' > /tmp/vc.conf
+sudo cp /tmp/vc.conf /etc/ld.so.conf.d/vc.conf
 sudo ldconfig
 anydesk --start-service
