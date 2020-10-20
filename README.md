@@ -2,11 +2,11 @@
 ## Cách 1 - Chạy bằng file Script
 Bạn tải file có tên CaiAnydeskTrenArm64.sh  
 [Link tải file CaiAnydeskTrenArm64.sh!](https://raw.githubusercontent.com/ngocnguyenhong/raspberrypi4/main/CaiAnydeskTrenArm64.sh)  
-Nhập lệnh trên Terminal ở vị trí tải file ``CaiAnydeskTrenArm64.sh  ``
-``sudo chmod a+x CaiAnydeskTrenArm64.sh  ``
-``sudo ./CaiAnydeskTrenArm64.sh  ``
+Nhập lệnh trên Terminal ở vị trí tải file ``CaiAnydeskTrenArm64.sh``  
+``sudo chmod a+x CaiAnydeskTrenArm64.sh``  
+``sudo ./CaiAnydeskTrenArm64.sh``  
 Sau khi Script cài đặt xong. Nhập lệnh để lấy id Anydesk trên Terminal  
-``anydesk --get-id  ``
+``anydesk --get-id``  
 
 ## Cách 2 - Tự cài đặt Anydesk
 Mở Terminal và nhập lệnh:  
