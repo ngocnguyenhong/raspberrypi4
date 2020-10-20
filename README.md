@@ -12,7 +12,9 @@ Sau khi Script cài đặt xong. Nhập lệnh để lấy id Anydesk trên Term
 Mở Terminal và nhập lệnh:  
 ``sudo dpkg --add-architecture armhf``  
 ``sudo apt update && sudo apt upgrade -y``  
-``sudo apt install -y libraspberrypi0:armhf libraspberrypi-dev:armhf libraspberrypi-doc:armhf libraspberrypi-bin:armhf libraspberrypi0:armhf libraspberrypi-dev:armhf libraspberrypi-doc:armhf libraspberrypi-bin:armhf libatk-adaptor:armhf libgail-common:armhf libcanberra-gtk-module:armhf libpolkit-gobject-1-0:armhf``  
+(Copy câu lệnh trong ngoặc kép và dán vào Terminal)  
+``"sudo apt install -y libraspberrypi0:armhf libraspberrypi-dev:armhf libraspberrypi-doc:armhf libraspberrypi-bin:armhf libraspberrypi0:armhf libraspberrypi-dev:armhf libraspberrypi-doc:armhf libraspberrypi-bin:armhf libatk-adaptor:armhf libgail-common:armhf libcanberra-gtk-module:armhf libpolkit-gobject-1-0:armhf"``  
+
 Tải anydesk từ trang chủ về (Ngày 20.10.2020 phiên bản Anydesk mới nhất là 6.0.1-1)  
 Nhập lệnh cài Anydesk:  
 ``sudo dpkg -i anydesk_6.0.1-1_armhf.deb``  
@@ -31,4 +33,4 @@ Chạy lệnh để cập nhật thông tin thư mục /opt/vc/lib:
 ``sudo ldconfig``  
 Khởi động dịch vụ anydesk:  
 ``anydesk --start-service`` 
-## Sau qua trình cài đặt, nhập lệnh lấy id lỗi thì khưởi động lại Raspberry Pi.  
+## Sau qua trình cài đặt, nhập lệnh lấy id lỗi thì khởi động lại Raspberry Pi.  
