@@ -28,7 +28,7 @@ Tạo file vc.conf:
 Copy vào thư mục /etc/ld.so.conf.d:  
 ``sudo cp vc.conf /etc/ld.so.conf.d/vc.conf``  
 Chạy lệnh để cập nhật thông tin thư mục /opt/vc/lib:  
-``sudo ldconfig ``
-Khởi động dịch vụ anydesk
+``sudo ldconfig``  
+Khởi động dịch vụ anydesk:  
 ``anydesk --start-service`` 
-## Sau qua trình cài đặt, nhập lệnh lấy id lỗi thì khưởi động lại Raspberry Pi.
+## Sau qua trình cài đặt, nhập lệnh lấy id lỗi thì khưởi động lại Raspberry Pi.  
